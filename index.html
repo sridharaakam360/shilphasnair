@@ -45,6 +45,12 @@
             background-size: cover;
         }
 
+        @media (max-width: 1024px) {
+            .parallax-bg {
+                background-attachment: scroll !important;
+            }
+        }
+
         .gold-shimmer {
             background: linear-gradient(45deg, #DAA520 0%, #F4D03F 50%, #DAA520 100%);
             -webkit-background-clip: text;
@@ -399,7 +405,7 @@
 
     <!-- Landscape Parallax (The Environment) -->
     <section class="h-[600px] w-full parallax-bg"
-        style="background-image: url('./img12.png'); background-repeat: no-repeat; background-size: cover; background-position: center 30%;"
+        style="background-image: url('./img12.png'); background-repeat: no-repeat; background-size: cover; background-position: center 30%;">
         <div class="w-full h-full bg-black/30 flex items-center justify-center">
             <div class="text-center px-6">
                 <h3 class="text-white text-5xl md:text-7xl font-headline italic mb-6">Her World, Her Canvas.</h3>
